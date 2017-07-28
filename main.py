@@ -37,7 +37,6 @@ def ttttt(message):
        
 def hello(message):
     bot.send_message(message.chat.id, 'Привет, {name}. dsafdsafadsf.'.format(name=message.text))
-    bot.send_message(chat_id='178036573', 'Привет, {name}. dsafdsafadsf.'.format(name=message.text))
-       
+    bot.send_message(hat_id='178036573', text='[name]') 
  
 bot.polling()
